@@ -1,0 +1,162 @@
+body {
+    background: #303f49;
+    height: 100%;
+    color: #1c578d;
+    font-family: Verdana;
+    font-size: 9pt;
+}
+
+*::selection {
+    background: none;
+    transform: translate(-50%, -50%);
+}
+
+.backgroundoflearningsystem {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background-color: rgb(85,112,139);
+    position: absolute;
+    top: 31%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 577px;
+    height: 60px;
+    max-width: 577px;
+    display: block;
+}
+
+.t1 {
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    top: 30%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+
+.white_background {
+    position: absolute;
+    width: 577px;
+    height: 225px;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    max-width: 577px;
+}
+
+.first_name_text {
+    position: absolute;
+    top: 40%;
+    left: 38%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    z-index: 999;
+}
+
+.first_name {
+    position: absolute;
+    top: 41%;
+    left: 50%;
+    max-width:577px;
+    height: 30px;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    border-style: solid;
+    border-radius: 25px;
+    border-color: black;
+}
+
+.last_name_text {
+    position: absolute;
+    top: 50%;
+    left: 38%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    z-index: 999;
+}
+
+.last_name {
+    position: absolute;
+    top: 51%;
+    left: 50%;
+    max-width: 100%;
+    height: 30px;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    border-style: solid;
+    border-radius: 25px;
+    border-color: black;
+}
+
+.password_text {
+    position: absolute;
+    top: 60%;
+    left: 37.5%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    z-index: 999;
+}
+
+.password {
+    position: absolute;
+    top: 61%;
+    left: 50%;
+    max-width: 100%;
+    height: 30px;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    border-style: solid;
+    border-radius: 25px;
+    border-color: black;
+}
+
+.login_rest {
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: rgb(85,112,139);
+    position: absolute;
+    top: 69%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 577px;
+    height: 60px;
+    max-width: 577px;
+    display: block;
+}
+
+.Login {
+    font-size: 30px;
+    position: absolute;
+    top: 69%;
+    left: 40%;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+}
+
+.half {
+    position: absolute;
+    color: white;
+    transform: translate(-50%, -50%);
+    top: 62.5%;
+    left: 50%;
+    font-size: 63px;
+    z-index: 1000;
+    cursor: normal;
+}
+
+.half::selection {
+    background: none;
+}
+
+.Reset {
+    font-size: 30px;
+    position: absolute;
+    top: 69.5%;
+    left: 60%;
+    cursor: pointer;
+    transform: translate(-50%, -50%); 
+    background: none;
+    border: none;   
+}
