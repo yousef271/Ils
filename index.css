@@ -2,11 +2,13 @@ body {
     background: #303f49;
     color: #1c578d;
     font-family: Verdana;
+    max-width: 100%;
 }
 
 *::selection {
     background: none;
     transform: translate(-50%, -50%);
+    max-width: 100%;
 }
 
 .backgroundoflearningsystem {
