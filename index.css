@@ -1,9 +1,7 @@
 body {
     background: #303f49;
-    height: 100%;
     color: #1c578d;
     font-family: Verdana;
-    font-size: 9pt;
 }
 
 *::selection {
@@ -16,13 +14,14 @@ body {
     border-top-right-radius: 25px;
     background-color: rgb(85,112,139);
     position: absolute;
-    top: 31%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 577px;
-    height: 60px;
+    height: 110px;
     max-width: 577px;
     display: block;
+    z-index: 1000;
 }
 
 .t1 {
@@ -32,6 +31,8 @@ body {
     top: 30%;
     left: 40%;
     transform: translate(-50%, -50%);
+    max-width: 100%;
+    z-index: 1000;
 }
 
 .white_background {
@@ -44,6 +45,7 @@ body {
     transform: translate(-50%, -50%);
     display: block;
     max-width: 577px;
+    z-index: 10001;
 }
 
 .first_name_text {
@@ -52,7 +54,8 @@ body {
     left: 38%;
     transform: translate(-50%, -50%);
     font-size: 30px;
-    z-index: 999;
+    z-index: 10001;
+    max-width: 100%;
 }
 
 .first_name {
@@ -62,7 +65,7 @@ body {
     max-width:577px;
     height: 30px;
     transform: translate(-50%, -50%);
-    z-index: 999;
+    z-index: 10001;
     border-style: solid;
     border-radius: 25px;
     border-color: black;
@@ -74,7 +77,8 @@ body {
     left: 38%;
     transform: translate(-50%, -50%);
     font-size: 30px;
-    z-index: 999;
+    z-index: 10001;
+    max-width: 100%;
 }
 
 .last_name {
@@ -84,7 +88,7 @@ body {
     max-width: 100%;
     height: 30px;
     transform: translate(-50%, -50%);
-    z-index: 999;
+    z-index: 10001;
     border-style: solid;
     border-radius: 25px;
     border-color: black;
@@ -96,17 +100,18 @@ body {
     left: 37.5%;
     transform: translate(-50%, -50%);
     font-size: 30px;
-    z-index: 999;
+    z-index: 10001;
+    max-width: 100%;
 }
 
 .password {
     position: absolute;
-    top: 61%;
+    top: 60%;
     left: 50%;
     max-width: 100%;
     height: 30px;
     transform: translate(-50%, -50%);
-    z-index: 999;
+    z-index: 10001;
     border-style: solid;
     border-radius: 25px;
     border-color: black;
@@ -117,46 +122,36 @@ body {
     border-bottom-right-radius: 25px;
     background-color: rgb(85,112,139);
     position: absolute;
-    top: 69%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 577px;
-    height: 60px;
+    height: 110px;
     max-width: 577px;
     display: block;
+    z-index: 10000;
 }
 
 .Login {
     font-size: 30px;
     position: absolute;
-    top: 69%;
+    top: 68%;
     left: 40%;
     cursor: pointer;
     transform: translate(-50%, -50%);
-}
-
-.half {
-    position: absolute;
-    color: white;
-    transform: translate(-50%, -50%);
-    top: 62.5%;
-    left: 50%;
-    font-size: 63px;
-    z-index: 1000;
-    cursor: normal;
-}
-
-.half::selection {
-    background: none;
+    max-width: 100%;
+    z-index: 10000;
 }
 
 .Reset {
     font-size: 30px;
     position: absolute;
-    top: 69.5%;
+    top: 68.5%;
     left: 60%;
     cursor: pointer;
     transform: translate(-50%, -50%); 
     background: none;
     border: none;   
+    z-index: 10000;
 }
+
