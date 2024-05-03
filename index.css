@@ -1,26 +1,32 @@
 body {
     background: #303f49;
+    height: 100%;
     color: #1c578d;
     font-family: Verdana;
-    max-width: 100%;
+    font-size: 9pt;
+}
+
+* {
+    font-family: Verdana;
+    color: #1c578d;
+    max-width: 100%
 }
 
 *::selection {
     background: none;
     transform: translate(-50%, -50%);
-    max-width: 100%;
+    max-width: 100%
 }
 
 .backgroundoflearningsystem {
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
+    border-radius: 25px;
     background-color: rgb(85,112,139);
     position: absolute;
-    top: 35%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 577px;
-    height: 110px;
+    height: 355px;
     max-width: 577px;
     display: block;
     z-index: 1000;
@@ -30,11 +36,11 @@ body {
     position: absolute;
     color: white;
     font-size: 15px;
-    top: 30%;
-    left: 40%;
-    transform: translate(-50%, -50%);
+    top: 29.8%;
+    left: 32%;
     max-width: 100%;
     z-index: 1000;
+    cursor: default;
 }
 
 .white_background {
@@ -44,10 +50,10 @@ body {
     background-color: white;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     display: block;
     max-width: 577px;
     z-index: 10001;
+    transform: translate(-50%, -50%);
 }
 
 .first_name_text {
@@ -124,7 +130,7 @@ body {
     border-bottom-right-radius: 25px;
     background-color: rgb(85,112,139);
     position: absolute;
-    top: 65%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 577px;
@@ -138,7 +144,7 @@ body {
     font-size: 30px;
     position: absolute;
     top: 68%;
-    left: 40%;
+    left: 36%;
     cursor: pointer;
     transform: translate(-50%, -50%);
     max-width: 100%;
